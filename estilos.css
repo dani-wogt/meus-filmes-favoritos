@@ -1,0 +1,62 @@
+body{
+    background-color: #eaebda;
+}
+h1{
+  font-family: "DM Serif Text", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.dm-serif-text-regular-italic {
+  font-family: "DM Serif Text", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+header{
+    font-family:'Courier New', Courier, monospace;
+    background-image: url(https://png.pngtree.com/thumb_back/fw800/back_pic/02/66/87/73578b94f836a03.jpg);
+    color: #ffffff;
+    line-height: 1.6;
+    border: 5px solid  ;
+    padding: 50px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;    
+}
+footer{
+    background: #9CC1D9;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+a img:hover{
+  cursor: pointer;
+  opacity: 0.5;
+  transition: opacity 0.5s ease-in-out;
+  
+}
+a img{
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+}
+.container{
+  max-width: 960px;
+margin-left: auto;
+margin-right: auto;
+}
+a{
+  text-decoration: none;
+  color: #e6ecff;
+}
+h1#informar{
+  color: #28272e;
+}
+
